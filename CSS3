@@ -1,0 +1,79 @@
+*{
+padding: 0;
+margin: o;
+box-sizing:  border-box;
+font-family: 'Courier New', Courier, monospace;
+}
+
+/* cabeçalho*/
+header { 
+background-image: url(../cidade\ castelo\ animado.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: auto;
+    color: #090505;
+padding:  15px;
+
+text-align: center;
+background:black ( 0, 0, 0, 0, 0.75);
+}
+/* Grid de produtos */
+.container{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    min-height: 60vh;
+    padding: 50px;
+}
+.products-container {
+    max-width: 1200px ;
+    margin: 0 auto;
+}
+.card{
+
+    width: 25%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 10px;
+}
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+#img-1{
+    background-image: url(../sophie.gif);
+}
+#img-2{
+    background-image: url(../howls.gif);
+}
+#img-3{
+    background-image: url(../calcifer.gif.gif);
+}
+#img-4{
+    background-image: url(../markl.gif);
+}
+#img-5{
+    background-image: url(../kakashi.gif);
+}
+#img-6{
+    background-image: url(../hin.gif);
+}
+
+h3{
+    margin-bottom: 10px;
+    color: ;
+font-size: 24px
+
+}
+
+/*footer*/
+footer{
+    background-color: #FFC495;
+    color: black ;
+    border-top: 3px solid;
+    text-align: center;
+    padding: 80px;
